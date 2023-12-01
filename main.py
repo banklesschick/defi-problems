@@ -16,7 +16,7 @@ from sklearn.metrics import classification_report, accuracy_score
 # Replace 'features' and 'labels' with your actual column names
 
 # Extract features and labels
-features = df[['AMOUNT_USD', 'TOKEN_ADDRESS', 'feature3']]  # Replace with your feature columns
+features = df[['AMOUNT_USD']]  # Replace with your feature columns
 labels = df['DESTINATION_CHAIN']  # Replace with your label column
 
 # Split the data into training and testing sets
